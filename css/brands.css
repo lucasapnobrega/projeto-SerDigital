@@ -1,0 +1,16 @@
+.brands-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.8rem;
+    list-style-type: none;
+    padding: 0;
+    background-color: var(--gray);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.brands h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #667085;
+}

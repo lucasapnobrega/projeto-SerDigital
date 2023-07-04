@@ -1,0 +1,22 @@
+.testimony-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.testimony-card {
+    background-color: var(--gray);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+.testimony-card img {
+    width: 55%;
+}
+
+.testimony-card:hover {
+    background-color: #ecebeb;
+    transform: scale(1.05);
+}

@@ -1,0 +1,14 @@
+.contact {
+    background-color: var(--gray);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.contact-image {
+    display: none;
+}
+
+.contact-content p {
+    line-height: 1.4;
+}

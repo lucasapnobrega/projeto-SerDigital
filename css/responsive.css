@@ -1,0 +1,198 @@
+@media screen and (min-width: 720px) {
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .header-title {
+        width: 140px;
+    }
+
+    .header i {
+        font-size: 1.6rem;
+    }
+
+
+    .testimony-card {
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        text-align: left;
+        max-height: 180px;
+    }
+
+    .testimony-card img {
+        width: 20%;
+    }
+
+
+    .contact-image {
+        display: initial;
+    }
+
+
+    .social-media {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .menu-btn, .menu-icon {
+        display: none;
+    }
+
+    .header {
+        align-items: center;
+    }
+
+    .header-menu {
+        display: initial;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        position: static;
+        max-height: initial;
+        background-color: initial;
+    }
+
+    .header-menu li {
+        font-size: 1.2rem;
+    }
+
+
+    .testimony-title {
+        max-width: 400px;
+        margin: 3rem auto;
+    }
+
+    .testimony-wrapper {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .testimony-card {
+        display: initial;
+        text-align: center;
+        max-height: 100%;
+    }
+
+    .testimony-card img {
+        width: 70%;
+    }
+
+
+    .footer-info {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 2.5rem;
+    }
+
+    .footer-section {
+        max-width: 150px;
+    }
+
+    .footer-section p, li {
+        font-size: .95rem;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .social-media i {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.15rem;
+    }
+
+    .container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .space {
+        margin: 8rem 0;
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10rem;
+    }
+
+    .hero-content {
+        max-width: 500px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .brands h2 {
+        font-size: 1.3rem;
+    }
+
+    .branding {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .branding-content {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .branding i {
+        font-size: 2rem;
+    }
+
+    .results {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .results-content {
+        max-width: 500px;
+        text-align: left;
+        order: 2;
+    }
+
+    .results i {
+        font-size: 2rem;
+    }
+
+    .testimony-card img {
+        max-width: 55%;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-content {
+        max-width: 500px;
+        text-align: left;
+        order: 2;
+    }
+
+    .footer-info {
+        gap: 6rem;
+    }
+}

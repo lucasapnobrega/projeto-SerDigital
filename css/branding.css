@@ -1,0 +1,16 @@
+.branding-content {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    align-items: center;
+}
+
+.branding-content img {
+    margin-bottom: .8rem;
+}
+
+.branding-content span {
+    transition: all .4s;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

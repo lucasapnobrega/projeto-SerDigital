@@ -1,0 +1,64 @@
+.menu-btn[type="checkbox"] {
+    display: none;
+}
+
+.header-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--light);
+    top: 100px;
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height .5s;
+    margin: 0;
+    padding-right: 1.5rem;
+}
+
+.menu-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-icon {
+    background-color: #333;
+    display: inline-block;
+    width: 24px;
+    height: 2px;
+    position: relative;
+}
+
+.nav-icon::after, .nav-icon::before {
+    content: "";
+    background-color: #333;
+    display: inline-block;
+    width: 24px;
+    height: 2px;
+    position: absolute;
+    transition: transform .5s;
+}
+
+.nav-icon::after {
+    transform: translateY(8px) translateX(-12px);
+}
+
+.nav-icon::before {
+    transform: translateY(-8px) translateX(-12px);
+}
+
+.menu-btn:checked ~ .header-menu {
+    max-height: 100vh;
+}
+
+.menu-btn:checked + .menu-icon .nav-icon {
+    background-color: transparent;
+}
+
+.menu-btn:checked + .menu-icon .nav-icon::before {
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked + .menu-icon .nav-icon::after {
+    transform: rotate(45deg);
+}
